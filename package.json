@@ -1,18 +1,16 @@
 {
   "name": "make-emoji",
   "description": "Splices a (square) image into multiple emojis for Discord",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "license": "MIT",
   "dependencies": {
     "path": "^0.12.7",
     "sharp": "^0.17.2"
   },
-  "bin": {
-    "make-emoji": "./bin/make-emoji"
-  },
   "files": [
     "bin",
     "lib"
-  ]
+  ],
+  "bin": "bin/run.js"
 }
